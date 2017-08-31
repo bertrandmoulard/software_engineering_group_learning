@@ -35,7 +35,7 @@ class HashmapBucket:
                     if current.next_el is None:
                         self.head = None
                         self.tail = None
-                    else:
+                    #  else:
                         self.head = current.next_el
                 elif current is self.tail:
                     self.tail = prev
